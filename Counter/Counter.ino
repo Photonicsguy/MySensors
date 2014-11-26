@@ -13,7 +13,7 @@ unsigned long Counter = 0;
 unsigned long Fail = 0;
 bool sendOk;
 bool hasfailed = false;
-unsigned long SLEEP_TIME = 5000; // Sleep time between reads (in milliseconds)
+unsigned long SLEEP_TIME = 1000; // Sleep time between reads (in milliseconds)
 
 MySensor gw;
 
